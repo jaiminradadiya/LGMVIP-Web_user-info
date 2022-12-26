@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* height: 48px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.482);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 0.5px solid rgba(254, 254, 254, 0.1);
+    ;
+}
+
+li {
+    float: left;
+}
+
+li a,
+button {
+    display: block;
+    color: white;
+    background-color: #111;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.App{
+    background: linear-gradient(45deg, #62ffe5, #f1e255, #ff5f6d, #62ffe5, #f1e255, #ff5f6d);
+    display: block;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
